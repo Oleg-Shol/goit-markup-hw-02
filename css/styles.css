@@ -1,16 +1,9 @@
-body {
-  background-color: #ffffff;
-  color: #212121;
-  font-family: 'Roboto' sans-serif;
-}
+
 .list {
   list-style: none;
 }
 
-h2,
-h3 {
-  color: #212121;
-}
+
 
 .link {
   text-decoration: none;
@@ -27,24 +20,7 @@ h3 {
   font-size: 36px;
 }
 
-/* Logo */
-.header-logo {
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 26px;
-  color: #212121;
-}
-.logo-blue {
-  color: #2196f3;
-}
 
-.footer-logo {
-  text-decoration: none;
-  /* font-weight: bold; */
-  font: 'Raleway' 700;
-  font-size: 26px;
-  color: #ffffff;
-}
 
 /* menu-nav */
 .menu-nav .link {
@@ -55,6 +31,10 @@ h3 {
 .menu-nav .link:hover,
 .menu-nav .link:focus {
   color: #2196f3;
+}
+
+.menu-nav .link.current {
+    color: palevioletred;
 }
 
 /* menu-nav контакты */
