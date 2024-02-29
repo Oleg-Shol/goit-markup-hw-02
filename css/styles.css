@@ -1,57 +1,8 @@
-
-.list {
-  list-style: none;
-}
-
-
-
-.link {
-  text-decoration: none;
-}
-
-.button {
-  background-color: #2196f3;
-  color: #ffffff;
-  font-size: 16px;
-  cursor: pointer;
-}
-
-.section-title {
-  font-size: 36px;
-}
-
-
-
-/* menu-nav */
-.menu-nav .link {
-  color: #212121;
-  text-decoration: none;
-  font-size: 14px;
-}
-.menu-nav .link:hover,
-.menu-nav .link:focus {
-  color: #2196f3;
-}
-
-.menu-nav .link.current {
-    color: palevioletred;
-}
-
-/* menu-nav контакты */
-
-.contacts-nav .link {
-  color: #212121;
-}
-
-.contacts-nav .link:hover,
-.contacts-nav .link:focus {
-  color: #2196f3;
-}
-
 /* hero */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--bg-second-color);
 }
+
 .hero h1 {
   color: #ffffff;
   font-weight: 900;
@@ -62,48 +13,48 @@
   text-transform: uppercase;
 }
 
+/* button */
+.hero .button {
+  background-color: var(--active-color);
+  color: var(--bg-main-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  cursor: pointer;
+  letter-spacing: 0.06em;
+  border: none;
+}
+
 /* features */
-.features {
-  font-size: 14px;
-}
 .features h3 {
+  font-weight: 700;
   font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
 }
-.features p {
-  color: #757575;
-  font-size: 14px;
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 /* team */
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--bg-light-color);
 }
 .team h3 {
   font-size: 16px;
+  font-weight: 500;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
 }
+
 .team p {
-  color: #757575;
+  color: var(--main-p-color);
   font-size: 16px;
-}
-
-/* footer */
-.footer {
-  background-color: #2f303a;
-}
-
-.footer .adress {
-  color: #ffffff;
-  font-size: 14px;
-  font-family: 'Roboto' sans-serif;
-  font-weight: 400;
+  line-height: 1.19;
   letter-spacing: 0.03em;
-  line-height: 1.5;
-}
-.footer .info {
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 14px;
-  font-family: 'Roboto' sans-serif;
-  font-weight: 400;
-  letter-spacing: 0.03em;
-  line-height: 1.5;
 }
